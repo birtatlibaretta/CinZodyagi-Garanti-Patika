@@ -7,7 +7,7 @@ public class ÇinZodyağı {
         int yıl;
 
         System.out.println("Doğum Yılınızı Girin: ");
-        year = sc.nextInt();
+        yıl = sc.nextInt();
 
         String[] zodyakBurçları = {"Fare", "Tilki", "Kaplan", "Tavşan", "Ejderya:)", "Yılan", "At", "Keçi", "Maymun", "Horoz", "Köpek", "Domuz"};
         int zodyakBurçEşitlik = yıl % 12;
