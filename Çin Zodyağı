@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class ÇinZodyağı {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int yıl;
+
+        System.out.println("Doğum Yılınızı Girin: ");
+        year = sc.nextInt();
+
+        String[] zodyakBurçları = {"Fare", "Tilki", "Kaplan", "Tavşan", "Ejderya:)", "Yılan", "At", "Keçi", "Maymun", "Horoz", "Köpek", "Domuz"};
+        int zodyakBurçEşitlik = yıl % 12;
+        String zodyakBurçları = zodyakBurçları[zodyakBurçEşitlik];
+
+        System.out.println("Çin Zodyağına Göre Burcunuz: " + zodyakBurçları);
+    }
+}
